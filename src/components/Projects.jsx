@@ -17,6 +17,9 @@ const Projects = () => {
             }}
             className="projectImgContainer col-12 col-sm-4"
           ></div>
+          <div className="projectTextSection col-12 col-sm-8">
+            <h1>Projects</h1>
+          </div>
         </div>
       </div>
     </div>

@@ -3,6 +3,9 @@
 }
 .projectImgContainer {
   height: 100%;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   position: relative;
+}
+.projectTextSection {
+  background-color: rgb(236, 230, 223);
 }
