@@ -1,0 +1,10 @@
+.headerContainer {
+  height: 75vh;
+  width: auto;
+  border: 2px solid black;
+}
+#headerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
