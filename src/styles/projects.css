@@ -1,9 +1,8 @@
 .projectRow {
-  height: 20em;
+  height: 25em;
 }
 .projectImgContainer {
   height: 100%;
   border: 2px solid purple;
   position: relative;
 }
-
