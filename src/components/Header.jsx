@@ -69,6 +69,12 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <section className="quoteSection">
+        <div className="quote">GET IN TOUCH WITH US</div>
+        <button type="button" class="btn btn-outline-success">
+          Click here
+        </button>
+      </section>
     </div>
   );
 };
