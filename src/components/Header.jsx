@@ -1,18 +1,26 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import headerImg from "../assets/header.jpg";
 import "../styles/header.css";
 import icon1 from "../assets/icon1.svg";
 import icon2 from "../assets/icon2.svg";
 import icon3 from "../assets/icon3.svg";
 import icon4 from "../assets/icon4.svg";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
     <div>
-      <div class="container">
-        <div class="row">
-          <div className="col-12 col-sm-9 headerImageContainer">
+      <div className="container">
+        <div className="row headerRow">
+          <div
+            style={{
+              backgroundImage: `url(${headerImg})`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+            className="col-12 col-sm-9 headerImageContainer"
+          >
             <div className="headerTextContainer">
               <h1 className="headerTextTitle">Construction</h1>
               <h3 className="headerPara">
@@ -22,7 +30,6 @@ const Header = () => {
                 reprehenderit maxime eum adipisci?
               </h3>
             </div>
-            <img id="headerImage" src={headerImg} alt="" />
           </div>
           <div className="servicesSection col-12 col-sm-3">
             <h1 className="servicesTitle">Our Services</h1>
@@ -69,7 +76,7 @@ const Header = () => {
           </div>
           <section className="quoteSection col-12 col-sm-12">
             <div className="quote">GET IN TOUCH WITH US</div>
-            <button type="button" class="btn btn-outline-success">
+            <button type="button" className="btn btn-outline-success">
               Click here
             </button>
           </section>
