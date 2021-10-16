@@ -1,17 +1,47 @@
+.headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+}
 .headerImgContainer {
   height: 75vh;
-  width: 65vw;
+  width: 50em;
   border: 2px solid black;
 }
 .headerTextContainer {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  margin-left: 2em;
+  color: white;
+  /* word-wrap: break-word; */
   height: 75vh;
-  width: 65vw;
+  width: 40vw;
   z-index: 1;
+}
+.headerTextTitle {
+  align-self: flex-start;
+  font-weight: 900;
+  font-size: 2em;
+  border-left: 5px solid rgb(53, 63, 62);
+  /* max-width: 40vw; */
+  width: auto;
+  overflow: auto;
+}
+.headerPara {
+  font-weight: 400;
 }
 #headerImage {
   width: 100%;
   height: 100%;
   object-fit: fill;
   z-index: 0;
+}
+.servicesSection {
+  border: 2px solid blue;
+  height: 75vh;
+  width: auto;
 }
