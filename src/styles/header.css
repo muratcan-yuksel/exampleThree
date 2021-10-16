@@ -1,0 +1,48 @@
+.row {
+  height: 70vh;
+}
+.servicesSection {
+  background-color: orange;
+  height: 100%;
+  border: 1px solid black;
+}
+.headerImageContainer {
+  background-color: black;
+  height: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+#headerImage {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.headerTextContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  margin-left: 2em;
+  color: white;
+  /* word-wrap: break-word; */
+  height: 75vh;
+  width: 40vw;
+  z-index: 1;
+}
+.headerTextTitle {
+  align-self: flex-start;
+  font-weight: 900;
+  font-size: 2em;
+  border-left: 5px solid rgb(53, 63, 62);
+  /* max-width: 40vw; */
+  width: auto;
+  overflow: auto;
+}
+.headerPara {
+  font-weight: 400;
+}
