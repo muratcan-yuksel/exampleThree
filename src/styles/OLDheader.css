@@ -3,11 +3,11 @@
   flex-wrap: wrap;
   background-color: orange;
 }
-.headerImgContainer {
+/* .headerImgContainer {
   height: 75vh;
   width: 50em;
   border: 2px solid black;
-}
+} */
 .headerTextContainer {
   position: absolute;
   display: flex;
@@ -41,7 +41,30 @@
   z-index: 0;
 }
 .servicesSection {
-  border: 2px solid blue;
+  /* border: 2px solid blue;
   height: 75vh;
-  width: auto;
+  width: auto; */
+}
+.servicesTitle {
+  color: black;
+  font-size: 2em;
+  /* border: 2px solid red; */
+  margin: 1em;
+}
+.serviceBundle {
+  display: flex;
+  margin: 1em;
+}
+.serviceIcon {
+}
+.bundleTexts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  font-weight: 600;
+}
+.bundleTitle {
+}
+.bundleText {
+  color: white;
 }
