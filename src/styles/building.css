@@ -18,3 +18,25 @@
   border: 1em solid rgb(63, 58, 58);
   padding: 0;
 }
+.testimonialsTitleContainer {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin: 2em;
+}
+.testimonialsTitle {
+  font-size: 2em;
+  border-bottom: 3px solid black;
+  font-weight: 600;
+}
+
+.testimonialFlex {
+  display: flex;
+  flex-direction: row;
+}
+.stars {
+  display: flex;
+}
+.testimonialText {
+  margin: 1em 0 1em 0;
+}
