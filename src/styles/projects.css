@@ -9,6 +9,10 @@
 .projectTextSection {
   background-color: rgb(236, 230, 223);
 }
+.projectBundle {
+  display: flex;
+  flex-direction: row;
+}
 .projectText {
   margin-top: 6%;
 }

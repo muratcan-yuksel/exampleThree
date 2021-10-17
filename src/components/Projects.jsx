@@ -9,33 +9,33 @@ import project3 from "../assets/project3.jpg";
 const Projects = () => {
   return (
     <div>
-      <div className="container">
+      {/* <div className="container">
         <div className="row projectRow">
-          <div
+         <div
             style={{
               backgroundImage: `url(${projectImage})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
-              //   height: "20em",
             }}
             className="projectImgContainer col-12 col-sm-4"
-          ></div>
-          <div className="projectTextSection col-12 col-sm-8">
+          ></div> */}
+      {/* <div className="projectTextSection col-12 col-sm-8">
             <h1 className="projectsTitle">Project Management</h1>
-            <div className="container">
-              <div className="row ">
-                <div className="col-12 col-sm-6 projectText">
-                  <p className="projectPara">
-                    {" "}
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Repellat tenetur, molestias eos inventore doloribus deserunt
-                    laboriosam sunt ducimus non quasi quibusdam officia cum
-                    necessitatibus voluptates perferendis tempore sit? Eligendi,
-                    laudantium.
-                  </p>
-                </div>
-                <div className="col-12 col-sm-6 projectText">
+          
+            <div className="projectBundle ">
+              <div className=" projectText">
+                <p className="projectPara">
+                  {" "}
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repellat tenetur, molestias eos inventore doloribus deserunt
+                  laboriosam sunt ducimus non quasi quibusdam officia cum
+                  necessitatibus voluptates perferendis tempore sit? Eligendi,
+                  laudantium.
+                </p>
+              </div>
+              <div className="col-12 col-sm-6 projectText">
+                <div>
                   <p className="projectPara">
                     {" "}
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -49,10 +49,10 @@ const Projects = () => {
                   </button>
                 </div>
               </div>
-            </div>
-          </div>
+            </div>    
+          </div> 
         </div>
-      </div>
+      </div>*/}
       {/* latest projects section */}
       <div className="latestProjects">
         <div className="container">
