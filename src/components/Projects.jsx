@@ -18,7 +18,34 @@ const Projects = () => {
             className="projectImgContainer col-12 col-sm-4"
           ></div>
           <div className="projectTextSection col-12 col-sm-8">
-            <h1>Projects</h1>
+            <h1 className="projectTitle">Project Management</h1>
+            <div className="container">
+              <div className="row ">
+                <div className="col-12 col-sm-6 projectText">
+                  <p className="projectPara">
+                    {" "}
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat tenetur, molestias eos inventore doloribus deserunt
+                    laboriosam sunt ducimus non quasi quibusdam officia cum
+                    necessitatibus voluptates perferendis tempore sit? Eligendi,
+                    laudantium.
+                  </p>
+                </div>
+                <div className="col-12 col-sm-6 projectText">
+                  <p className="projectPara">
+                    {" "}
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat tenetur, molestias eos inventore doloribus deserunt
+                    laboriosam sunt ducimus non quasi quibusdam officia cum
+                    necessitatibus voluptates perferendis tempore sit? Eligendi,
+                    laudantium.
+                  </p>
+                  <button type="button" className="btn btn-outline-success">
+                    Success
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

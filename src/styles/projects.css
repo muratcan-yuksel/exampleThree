@@ -9,3 +9,14 @@
 .projectTextSection {
   background-color: rgb(236, 230, 223);
 }
+.projectText {
+  margin-top: 6%;
+}
+.projectTitle {
+  font-size: 2em;
+  margin: 2em 0 0 2em;
+}
+.projectPara {
+  margin-bottom: 1em;
+  font-weight: 600;
+}
