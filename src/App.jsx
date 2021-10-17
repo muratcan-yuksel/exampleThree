@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
+import Building from "./components/Building";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Projects />
+      <Building />
     </div>
   );
 };

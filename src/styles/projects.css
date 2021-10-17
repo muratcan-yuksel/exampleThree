@@ -2,7 +2,7 @@
   height: 25em;
 }
 .projectImgContainer {
-  height: 100%;
+  height: 25em;
   /* border: 2px solid purple; */
   position: relative;
 }
@@ -12,11 +12,18 @@
 .projectText {
   margin-top: 6%;
 }
-.projectTitle {
+.projectsTitle {
   font-size: 2em;
   margin: 2em 0 0 2em;
 }
 .projectPara {
   margin-bottom: 1em;
   font-weight: 600;
+}
+.latestProjects {
+  margin-top: 2em;
+}
+.projectTitle {
+  font-weight: 600;
+  margin: 5px 0 5px 0;
 }
