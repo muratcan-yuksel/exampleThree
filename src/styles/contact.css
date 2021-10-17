@@ -1,0 +1,30 @@
+.contact {
+  height: 20em;
+  background-color: orange;
+  margin-top: 5em;
+}
+.contactFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactTitle {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.formItem {
+  color: white;
+  background-color: black;
+}
+.footerFlex {
+  margin-top: 5em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  font-weight: 600;
+  /* background-color: rgb(63, 58, 58);
+  color: white; */
+}
