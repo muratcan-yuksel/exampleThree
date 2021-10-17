@@ -6,7 +6,7 @@ import buildingImg from "../assets/buildingImg.jpg";
 
 const Building = () => {
   return (
-    <div>
+    <div className="buildingContainer">
       <div className="container">
         <div className="row ">
           <div className="buildingText col-12 col-sm-4">

@@ -57,6 +57,9 @@ const Projects = () => {
       <div className="latestProjects">
         <div className="container">
           <div className="row ">
+            <div className="latestProjectsTitle">
+              <h1>Our latest projects</h1>
+            </div>
             <div className="col-12 col-sm-4 exampleProject">
               <img src={project1} alt="" />
 
