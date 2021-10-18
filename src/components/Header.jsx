@@ -19,7 +19,7 @@ const Header = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-            className="col-12 col-sm-9 col-md-12 headerImageContainer"
+            className="col-12 col-sm-12 col-md-8 headerImageContainer"
           >
             <div className="headerTextContainer">
               <h1 className="headerTextTitle">Construction</h1>
@@ -31,7 +31,7 @@ const Header = () => {
               </h3>
             </div>
           </div>
-          <div className="servicesSection col-12 col-sm-3 col-md-12">
+          <div className="servicesSection col-12 col-sm-12 col-md-4">
             <h1 className="servicesTitle">Our Services</h1>
             <div className="serviceBundle">
               <div className="serviceIcon">
